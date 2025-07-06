@@ -7,4 +7,5 @@ mkdir -p $dest
 cp f*.fish $dest
 
 echo "✅ Installed fn and fnh to $dest"
-echo "Run: `funcsave fn; funcsave fnh` to persist in universal scope if desired."
+funcsave fn; funcsave fnh
+echo "Ran: `funcsave fn; funcsave fnh` to persist across sessions."
