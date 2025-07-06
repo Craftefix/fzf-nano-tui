@@ -16,9 +16,11 @@ A minimal terminal file manager UI for the [fish shell](https://fishshell.com/),
 
 ## Installation
 
+```
 git clone https://github.com/Craftefix/fzf-nano-tui ~/.fzf-nano-tui  
 cd ~/.fzf-nano-tui  
 fish install.fish
+```
 
 Requires `fish`, `fzf`, and `nano`.
 
@@ -29,7 +31,7 @@ Requires `fish`, `fzf`, and `nano`.
 ### `fn`
 
 Launch `fn` to pick a file and select an action:
-
+```
 ╭──────────────────────────────╮  
 │ Selected file:               │  
 │ example.txt                  │  
@@ -40,7 +42,7 @@ Launch `fn` to pick a file and select an action:
 │                              │  
 │ Press Ctrl+C to quit         │  
 ╰──────────────────────────────╯
-
+```
 - Edits save a backup copy to `~/.fn`  
 - Rename updates UI with new filename  
 - Delete exits the function
